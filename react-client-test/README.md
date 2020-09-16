@@ -1,6 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Built With
+This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+* [materialize-css](https://materializecss.com/)
+
+
 ## Available Scripts
+
+### `npm start` 
 
 In the project directory, you can run to start RESTful API:
 
@@ -16,6 +23,38 @@ Open [http://localhost:3000](http://localhost:3000) to start the application in 
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+```sh
+npm install npm@latest -g
+```
+
+### Installation
+
+1. Start MongoDB and make a MongoDB Database. More information at ["https://www.mongodb.com/basics/create-database"]
+2. Clone the repo
+```sh
+git clone https://github.com/axb157030/NodeJS_RESTful.git
+```
+3. Install NPM packages
+```sh
+npm install
+```
+4. Install [materialize-css]
+```sh
+npm install materialize-css
+```
+
+5. Replace DB_CONNECTION in app.js directory inside the project directory with the the uri needed to connect to MongoDB. Example ['mongodb://localhost:27017/myapp']
 
 ### `npm test`
 
